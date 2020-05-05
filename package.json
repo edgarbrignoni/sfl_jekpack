@@ -1,0 +1,13 @@
+{
+  "name": "sfl_jekpack",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@bincode/jekpack": "^1.8.0"
+  },
+  "scripts": {
+    "dev": "jekpack dev",
+    "build": "jekpack build",
+    "bundle": "jekpack bundle"
+  }
+}

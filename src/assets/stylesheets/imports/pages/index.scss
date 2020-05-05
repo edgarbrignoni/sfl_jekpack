@@ -1,7 +1,7 @@
 /*** Index Page ***/
 
 .index-page-background {
-  background-image: url("/img/index-hero.jpg");
+  background-image: url("~media/img/index-hero.jpg");
   min-height: 50em;
   background-position: center center !important;
 }
@@ -175,7 +175,7 @@
     }
   }
   .slf-benefits {
-    background-image: url("/img/benefits-bg.jpg");
+    background-image: url("~media/img/benefits-bg.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #fff;
@@ -203,7 +203,7 @@
   }
 
   .need-cash {
-    background-image: url("/img/cash-bg.jpg");
+    background-image: url("~media/img/cash-bg.jpg");
     text-align: center;
     color: $font-white;
     padding-top: 3em;

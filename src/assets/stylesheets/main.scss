@@ -3,8 +3,6 @@
   {% asset_tag main.css %}
 */
 
-
-
 //** Just For Local Development **//
 @import "bootstrap.css";
 
@@ -36,7 +34,7 @@
 @import "imports/helpers.scss";
 
 
-// DeBUG
+//** DeBUG **//
 .test {
 background: url(~media/img/test500x250.png);
 height: 250px;

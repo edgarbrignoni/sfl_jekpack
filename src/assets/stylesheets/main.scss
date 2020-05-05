@@ -3,3 +3,32 @@
   {% asset_tag main.css %}
 */
 
+//** Just For Local Development **//
+@import "bootstrap.css";
+
+/*Base*/
+@import "imports/bootstrap-overwrite.scss";
+@import "imports/variables.scss";
+@import "imports/globle.scss";
+
+/*Components*/
+@import "imports/components/accordion.scss";
+
+/*Sections*/
+@import "imports/sections/header.scss";
+@import "imports/sections/menu.scss";
+@import "imports/sections/page-body.scss";
+@import "imports/sections/footer.scss";
+
+/*Pages*/
+@import "imports/pages/index.scss";
+@import "imports/pages/404page.scss";
+@import "imports/pages/about.scss";
+@import "imports/pages/apply.scss";
+@import "imports/pages/consumer-disclosures.scss";
+@import "imports/pages/contact-us.scss";
+@import "imports/pages/loan-types.scss";
+
+
+/*Helpers*/
+@import "imports/helpers.scss";

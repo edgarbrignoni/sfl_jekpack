@@ -1,0 +1,34 @@
+/*** Footer ***/
+footer {
+  color: $font-white;
+  background-color: $main-blue;
+  font-size: 0.8em;
+  line-height: 1.1em;
+  border-top: 0.25em solid $light-blue;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  a {
+    color: $font-white;
+  }
+  a:hover {
+    color: $grey-red;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  #footerNav {
+    text-align: center;
+  }
+  #social-links img {
+    width: 3.5em;
+    height: 3.5em;
+  }
+}

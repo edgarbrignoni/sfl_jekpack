@@ -1,0 +1,37 @@
+/*** Loan Types ***/
+#installmentLoans {
+  h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
+  h2 {
+    font-size: 1.75em;
+    margin: 0.5em 0;
+  }
+}
+
+.installment-loans-background {
+  background-image: url("/img/installment-loans-hero.jpg");
+}
+
+#registrationLoans {
+  h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
+  h2 {
+    font-size: 1.75em;
+    margin: 0.5em 0;
+  }
+}
+
+.registration-loans-background {
+  background-image: url("/img/registration-loans-hero.jpg");
+}
+
+#lineOfCredit {
+}
+
+.line-of-credit-background {
+  background-image: url("/img/line-of-credit-hero.jpg");
+}

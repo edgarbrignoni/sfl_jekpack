@@ -1,0 +1,12 @@
+/*** Header ***/
+
+header {
+  padding-top: 1.25em;
+  padding-bottom: 0.5em;
+  background-color: $grey-red;
+  position: relative;
+  z-index: 3;
+  a {
+    color: $main-black;
+  }
+}

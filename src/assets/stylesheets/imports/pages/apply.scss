@@ -1,0 +1,111 @@
+/*** Apply Page ***/
+
+#apply {
+margin-top: 2em;
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: $main-black;
+  font-family: "Source Sans Pro Semibold";
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: $main-black;
+  font-family: "Source Sans Pro Semibold";
+  margin-top: 2em;
+}
+
+h3 {
+  font-size: 0.9em;
+  color: $main-green;
+  line-height: 0.75;
+}
+
+label {
+  color: $main-blue;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+  .apply-button-area {
+    text-align: center;
+    background-color: $grey-red;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 4em;
+  }
+}
+
+
+
+//Progress Bar
+.progress-area {
+  margin-bottom: 1em;
+  text-align: center;
+  display: flex;
+}
+
+  .step1, .step2, .step3 {
+    width: 33%;
+    padding: 0.5em 0;
+    background-color: $grey-red;
+  }
+
+  .step1 {
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    background-position-x: left 1em;
+  }
+
+  .step2 {
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%);
+    background-position-x: left 2em;
+  }
+
+  .step3 {
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0px 100%, 5% 50%);
+  }
+
+  .active {
+    color: $font-white;
+    background-color: $light-blue;
+  }
+
+  .inactive {
+
+  }
+
+  .complete {
+    background-image: url("/img/check_circle-white-24dp.svg");
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-y: center;
+  }
+
+#applyDisclosureStatement {
+  height: 15em;
+  overflow-y: scroll;
+  font-size: 0.75em;
+  border-style: solid;
+  border-color: $grey;
+  border-width: 1px;
+  padding: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+#disclosureConfirm {
+  label {
+    color: $main-black;
+    font-weight: 500;
+  }
+}

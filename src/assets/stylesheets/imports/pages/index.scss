@@ -1,0 +1,229 @@
+/*** Index Page ***/
+
+.index-page-background {
+  background-image: url("/img/index-hero.jpg");
+  min-height: 50em;
+  background-position: center center !important;
+}
+
+#indexpage {
+  .hero {
+    min-height: 40em;
+    h1 {
+      color: $main-blue;
+      font-weight: 700;
+    }
+    h2 {
+      color: $main-blue;
+    }
+  }
+
+  .header-text {
+    margin-top: 6em;
+  }
+
+  .index-background {
+    background-color: $grey-index;
+
+  }
+
+  .apply-area {
+    margin-top: 2em;
+    padding-bottom: 1em;
+    background-color: #fff;
+
+    h2 {
+      color: $font-white;
+      font-size: 1.75em;
+      line-height: 1em;
+      text-align: center;
+      background: $main-green;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    label {
+      color: $main-blue;
+      font-family: "Source Sans Pro";
+      font-weight: 700;
+      font-size: 1em;
+    }
+    .form-group {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .privacy {
+      text-align: center;
+      a {
+        text-decoration: underline;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .overly-bottom {
+    display: flex;
+    margin-top: -2em;
+    span {
+      display: block;
+      background-color: transparent;
+      width: 100%;
+      height: 3.5em;
+      position: relative;
+    }
+    span:first-of-type:after {
+      display: block;
+      position: absolute;
+      top: 0;
+      content: "";
+      border-right: 14em solid $main-green;
+      border-bottom: 2em solid #fff;
+    }
+    span:last-of-type:before {
+      display: block;
+      position: absolute;
+      top: 0;
+      content: "";
+      border-left: 13.95em solid $main-green;
+      border-bottom: 2em solid #fff;
+    }
+  }
+
+  .overly-top {
+    display: flex;
+    margin-top: -2em;
+    span {
+      display: block;
+      background-color: $grey-index;
+      width: 100%;
+      height: 1.5em;
+      position: relative;
+    }
+    span:first-of-type {
+      margin-right: 1.5em;;
+    }
+    span:first-of-type:after {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: -1.5em;
+      content: "";
+      border-left: 1.5em solid transparent;
+      border-right: 1.5em solid transparent;
+      border-bottom: 1.5em solid $grey-index;
+    }
+    span:last-of-type {
+      margin-left: 1.5em;
+    }
+    span:last-of-type:before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -1.5em;
+      content: "";
+      border-left: 1.5em solid transparent;
+      border-right: 1.5em solid transparent;
+      border-bottom: 1.5em solid $grey-index;
+    }
+  }
+
+  .why-choose {
+    padding-top: 2em;
+    text-align: center;
+    h2 {
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.25em;
+      line-height: 1.25em;
+    }
+  }
+
+  .three-steps {
+    text-align: center;
+    margin-bottom: 2em;
+    h3 {
+      color: $main-green;
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+    }
+    h4 {
+      color: $main-blue;
+      font-size: 1.25em;
+      font-weight: 700;
+    }
+
+    .step-box {
+      background-color: #fff;
+      padding: 1em 0;
+      margin: 2em 1em;
+    }
+    .green-cirle {
+      color: $font-white;
+      background-color: $main-green;
+      border-radius: 50%;
+      height: 2em;
+      width: 2em;
+      display: block;
+      padding-top: 0.25em;
+      font-size: 1.25em;
+      font-weight: 600;
+      margin: 1em auto 0.5em;
+
+    }
+  }
+  .slf-benefits {
+    background-image: url("/img/benefits-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    h2 {
+      color: $main-black;
+      font-size: 2em;
+      font-weight: 700;
+      margin: 1em 0;
+    }
+    p {
+      margin-left: 3em;
+    }
+    a {
+      text-decoration: underline;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  #faq {
+    margin: 1em 0;
+  }
+
+  .need-cash {
+    background-image: url("/img/cash-bg.jpg");
+    text-align: center;
+    color: $font-white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    h2 {
+      font-size: 3em;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 1.75em;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    .btn-light {
+      padding-left: 2em;
+      padding-right: 2em;
+      color: $light-blue;
+      font-weight: 700;
+    }
+
+  }
+
+}

@@ -1,0 +1,49 @@
+/*** About Page ***/
+.about-background {
+  background-image: url("/img/about-hero.jpg");
+}
+
+#about {
+
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 1.5em;
+    color: $light-blue;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+    background-color: $main-blue;
+    color: $font-white;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .about-us {
+
+  }
+
+  .why-choose {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .decision-steps {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 0.75em;
+  }
+
+  .apply {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+}

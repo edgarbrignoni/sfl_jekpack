@@ -1,0 +1,62 @@
+/***  helpers.scss ***/
+
+.clear-list-style {
+  li {
+    list-style: initial;
+    background: none;
+    padding: initial;
+    line-height: initial;
+    padding-left: 1em;
+  }
+}
+
+.cirle-list-style {
+  ul {
+    list-style: url("/img/check_circle-blue-24dp.svg");
+  }
+}
+
+.inactiveLink {
+   pointer-events: none;
+}
+
+.activeLink {
+   pointer-events: auto;
+   cursor: pointer;
+}
+
+.date-field {
+  background-image: url("/img/calendar_today-black-24dp.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right 1em;
+}
+
+.phone-field {
+  background-image: url("/img/phone-black-24dp.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right 1em;
+}
+
+.field-hidden {
+  background-image: url("/img/visibility_off-black-24dp.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right 1em;
+}
+
+.field-shown {
+  background-image: url("/img/visibility-black-24dp.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right 1em;
+}
+
+.sflfont {
+  color: $main-green;
+}
+
+.hide {
+  display: none !important;
+}

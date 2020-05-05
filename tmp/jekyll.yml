@@ -1,0 +1,13 @@
+timezone: Asia/Taipei
+markdown: kramdown
+plugins:
+  - pry
+source: src
+exclude:
+  - assets
+destination: tmp/dist
+plugins_dir: >-
+  C:\Users\Magus\AppData\Roaming\npm\node_modules\@bincode\jekpack\config\plugins
+keep_files:
+  - assets
+permalink: pretty

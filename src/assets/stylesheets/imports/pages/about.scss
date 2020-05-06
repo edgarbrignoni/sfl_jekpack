@@ -1,10 +1,8 @@
 /*** About Page ***/
-.about-background {
-  background-image: url("/img/about-hero.jpg");
-}
 
-#about {
 
+#aboutPage {
+  margin-top: 5em;
 
   h1 {
     font-size: 2.5em;
@@ -12,7 +10,6 @@
   }
   h2 {
     font-size: 1.5em;
-    color: $light-blue;
     font-weight: 600;
   }
   h3 {

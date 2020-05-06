@@ -8,6 +8,7 @@ nav {
   li {
     list-style: none;
   }
+  height: 2em;
 }
 
 @media (min-width: 768px) {
@@ -16,11 +17,25 @@ nav {
   background-color: $grey-red; //testing
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 700;
-  filter: drop-shadow(0 0 0.5em #111);
   z-index: 1;
   position: relative;
+
+  .nav-buttons {
+    img {
+      padding-right: 0.5em;
+    }
+    .btn-login {
+      background-color: $main-blue;
+      margin-left: 2em;
+      margin-right: 1em;
+    }
+    .btn-login:hover {
+      background-color: $light-blue;
+      border-color: $light-blue;
+    }
+  }
 
   a {
     color: $main-blue;
@@ -35,6 +50,7 @@ nav {
   li {
     list-style: none;
     float: left;
+    margin-top: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     border-left: 1px solid $grey;

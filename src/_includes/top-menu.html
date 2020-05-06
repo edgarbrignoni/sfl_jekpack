@@ -3,7 +3,11 @@
     <div class="row">
       <div class="col">
         <div id="topNav">
+
+
+
           <ul>
+            <li><a href="{{ "/" | relURL }}">Home</a></li>
             <li><a href="{{ "about" | relURL }}">About</a></li>
             <li class="dropdown-nav"><a class="inactiveLink">Loan Types
             <div>
@@ -16,6 +20,10 @@
             </a></li>
             <li><a href="https://epaymyloan.com/" target="_blank">Make A Payment</a></li>
             <li><a href="{{ "consumer-disclosures" | relURL }}">Consumer Disclosure</a></li>
+            <span class="nav-buttons">
+              <a class="btn btn-primary btn-login" href="{{ "account" | relURL }}"><img src="{% asset_path account_circle-white-24dp.svg %}" alt="User Account">My Account</a>
+              <a class="btn btn-primary btn-apply" href="{{ "apply" | relURL }}">Apply Now</a>
+            </span>
           </ul>
         </div>
       </div>

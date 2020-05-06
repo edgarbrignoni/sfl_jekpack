@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Fast Loans - </title>
+  <link rel="stylesheet" href="/assets/stylesheets/main-d284834a1db973c6af86.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+      <a href="/">
+          <img src="/assets/media/logo.611f7327f841e013774e1bbe6709db6d.svg" alt="Simple Fast Loans" class="logo img-fluid">
+      </a>
+      </div>
+      <div class="col d-none d-lg-block">
+        <span class="float-right">
+      Need Help? <a class="tele" href="tel:1-855-214-5363">Call (855) 214-5363</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="topNav">
+          <ul>
+            <li><a href="about">About</a></li>
+            <li class="dropdown-nav"><a class="inactiveLink">Loan Types
+            <div>
+              <div class="dropdown-content">
+                <a href="installment-loans">Signature Installment Loans</a>
+                <a href="registration-loans">Registration Loans</a>
+                <a href="line-of-credit">Line of Credit</a>
+              </div>
+            </div>
+            </a></li>
+            <li><a href="https://epaymyloan.com/" target="_blank">Make A Payment</a></li>
+            <li><a href="consumer-disclosures">Consumer Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <div id="apply">
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Apply for your loan</h1>
+      </div>
+    </div>
+
+<!-- progress-area -->
+    <div class="row">
+      <div class="col">
+        <div class="progress-area">
+          <span id="progressStep1" class="step1 active inactiveLink">
+          About You
+          </span>
+        <span id="progressStep2" class="step2 inactiveLink">
+          Your Finances
+        </span>
+        <span id="progressStep3" class="step3 inactiveLink">
+          Disclosure Statement
+        </span>
+      </div>
+    </div>
+  </div>
+<!-- /.progress-area -->
+
+    <div class="row">
+      <div class="col">
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <form id="applyForm" name="applyForm">
+    <div id="applyStep1" class="step-one container">
+      <div class="row">
+        <div class="col">
+          <h2>Let's start by getting to know you</h2>
+          <h3>Tell us a little bit more about yourself</h3>
+        </div>
+      </div>
+
+      <div class="form-group">
+
+        <div class="row">
+          <div class="col">
+            <label for="Promo">Offer Promo Code</label>
+            <input type="text" class="form-control" id="Promo">
+          </div>
+          <div class="col">
+            <label for="Military">Are you active military?</label>
+            <select class="form-control" id="Military" required>
+              <option selected disabled>Select Option</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="FirstName">First Name</label>
+            <input type="text" class="form-control" id="FirstName" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="LastName">Last Name</label>
+            <input type="text" class="form-control" id="LastName" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            <label for="DoB">Date of Birth</label>
+            <input type="date" class="form-control date-field" id="DoB" name="DoB" value="" min="" max="" required>
+          </div>
+              <div class="col">
+              <label for="SSN">SSN</label>
+              <input type="password" class="form-control field-hidden" id="SSN" name="SSN" inputmode="numeric" minlength="9" maxlength="11" pattern="(?!000)([0-6]\d{2}|7([0-6]\d|7[012]))([ -])?(?!00)\d\d\3(?!0000)\d{4}" required>
+          </div>
+          <div class="col">
+            <label for="SSNCheck">Reenter SSN</label>
+            <input type="" class="form-control field-shown" id="SSNCheck" inputmode="numeric" minlength="9" maxlength="11" pattern="(?!000)([0-6]\d{2}|7([0-6]\d|7[012]))([ -])?(?!00)\d\d\3(?!0000)\d{4}" required>
+          </div>
+          <div class="col-2">
+            <div class="form-group form-check-inline">
+              <label class="form-check-label" for="ShowSSN">
+                Show SSN Number
+              </label>
+              <input type="checkbox" class="form-check-input" id="ShowSSN">
+            </div>
+          </div>
+        </div>
+
+      <div class="row">
+          <div class="col-4">
+            <label for="IDType">ID Type</label>
+            <select class="form-control" id="IDType" required>
+              <option selected disabled>Select Option</option>
+              <option>Driver's License</option>
+              <option>State ID</option>
+              <option>Passport</option>
+              <option>Military ID</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="IDNumber">ID Number</label>
+            <input type="text" class="form-control" id="IDNumber" required>
+          </div>
+        </div>
+
+        <h2>How can we reach you?</h2>
+        <div class="row">
+          <div class="col">
+            <label for="EmailAddress">Email Address</label>
+            <input type="email" class="form-control" id="EmailAddress" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="text" inputmode="numeric" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" class="form-control phone-field" id="PhoneNumber" maxlength="14" required placeholder="(xxx) xxx-xxxx">
+          </div>
+          <div class="col">
+            <label for="SecondaryNumber">Secondary Phone Number</label>
+            <input type="text" inputmode="numeric" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" class="form-control phone-field" id="SecondaryNumber" maxlength="14" required placeholder="(xxx) xxx-xxxx">
+          </div>
+        </div>
+
+        <h2>Where are you located?</h2>
+
+        <div class="row">
+          <div class="col">
+            <label for="StreetAddress">Street Address</label>
+            <input type="text" class="form-control" id="StreetAddress">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <label for="SecondStreetAddressType">Second Address Type</label>
+            <select class="form-control" id="SecondStreetAddressType" required>
+              <option selected>Select Option</option>
+              <option>Apt</option>
+              <option>Bldg</option>
+              <option>Dept</option>
+              <option>Lot</option>
+              <option>Room</option>
+              <option>Space</option>
+              <option>Suite</option>
+              <option>Trailer</option>
+              <option>Unit</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="SecondStreetAddress">Second Street Address</label>
+            <input type="text" class="form-control" id="SecondStreetAddress">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label for="CityAddress">City</label>
+            <input type="text" class="form-control" id="CityAddress">
+          </div>
+          <div class="col">
+            <label for="StateAddress">State</label>
+            <select class="form-control" id="StateAddress">
+              <option selected disabled>Select Option</option>
+              <option>Alabama</option>
+              <option>Arizona</option>
+              <option>Delaware</option>
+              <option>Idaho</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Nevada</option>
+              <option>New Mexico</option>
+              <option>South Carolina</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Wisconsin</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="ZIPCodeAddress">ZIP Code</label>
+            <input type="text" pattern="(\d{5}([\-]\d{4})?)" class="form-control" id="ZIPCodeAddress">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="OccupantStatus">Occupant Status</label>
+            <select class="form-control" id="OccupantStatus">
+              <option selected disabled>Select Option</option>
+              <option>Owner</option>
+              <option>Renter</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="TimeAtResidence">Time at Residence</label>
+            <select class="form-control" id="TimeAtResidence">
+              <option selected disabled>Select Option</option>
+              <option>Less than 1 Year</option>
+              <option>1 -3 Years</option>
+              <option>4 - 5 Years</option>
+              <option>6 - 10 Years</option>
+              <option>11 - 20 Years</option>
+              <option>20+ Years</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="MaritalStatus">Marital Status</label>
+            <select class="form-control" id="MaritalStatus">
+              <option selected disabled>Select Option</option>
+              <option>Single</option>
+              <option>Married</option>
+              <option>Divorced</option>
+              <option>Widowed</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="MaritalStatus">Does your Spouse/Partner live here?</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="MaritalStatus" id="MarriedTrue" value="true">
+              <label class="form-check-label" for="MaritalStatus">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="MaritalStatus" id="MarriedFalse" value="false">
+              <label class="form-check-label" for="MaritalStatus">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#applyStep1 -->
+
+    <div id="applyStep2" class="hide step-two container">
+      <div class="row">
+        <div class="col">
+          <h2>Tell us a little bit about your work</h2>
+          <h3>What do you do for a living?</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="EmploymentStatus">Employment Status</label>
+          <select class="form-control" id="EmploymentStatus">
+            <option selected disabled>Select Option</option>
+            <option>Employed</option>
+            <option>Government Assistance/Disability</option>
+            <option>Retired/Pension</option>
+            <option>Self-Employed</option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="EmploymentLength">Length of Employment</label>
+          <select class="form-control" id="EmploymentLength">
+            <option selected disabled>Select Option</option>
+            <option>0 - 1 Years</option>
+            <option>2 - 4 Years</option>
+            <option>5 - 8 Years</option>
+            <option>9+ Years</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="EmployerName">Employer Name</label>
+          <input type="text" class="form-control" id="EmployerName">
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col">
+          <label for="JobTitle">Job Title</label>
+          <input type="text" class="form-control" id="JobTitle">
+        </div>
+        <div class="col">
+          <label for="WorkPhone">Work Phone Number</label>
+          <input type="text" inputmode="numeric" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" class="form-control phone-field" id="WorkPhone" maxlength="14" placeholder="(xxx) xxx-xxxx">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>How do you get paid?</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="PaymentFrequency">How often are you paid?</label>
+          <select class="form-control" id="PaymentFrequency">
+            <option selected disabled>Select Option</option>
+            <option>Weekly</option>
+            <option>Every Twok Weeks</option>
+            <option>Twice a Month</option>
+            <option>Monthly</option>
+          </select>
+        </div>
+
+        <div class="col">
+          <label for="PaymentFrequency">Payroll Method</label>
+          <select class="form-control" id="PaymentFrequency">
+            <option selected disabled>Select Option</option>
+            <option>Direct Deposite</option>
+            <option>Check/Cash</option>
+          </select>
+        </div>
+
+        <div class="col">
+          <label for="DateofPay">Date of Pay</label>
+          <input type="date" class="form-control date-field" id="DateofPay" name="DateofPay" value="" min="" max="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="SecondIncome">Do you have a secondary form of income?</label><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="SecondIncome" id="SecondIncomeTrue" value="true">
+            <label class="form-check-label" for="SecondIncome">Yes</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="SecondIncome" id="SecondIncomeFalse" value="false">
+            <label class="form-check-label" for="SecondIncome">No</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>How can we pay you?</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="RoutingNumber">Routing Number</label>
+          <input type="number" min="0" class="form-control" id="RoutingNumber">
+        </div>
+        <div class="col">
+          <label for="BankName">Bank Name</label>
+          <input type="text" class="form-control" id="BankName" readonly>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="AccountNumber">Account Number</label>
+          <input type="number" min="0" class="form-control" id="AccountNumber">
+        </div>
+        <div class="col">
+          <label for="AccountNumberConfirm">Confirm Account Number </label>
+          <input type="number" min="0" class="form-control" id="AccountNumberConfirm">
+        </div>
+      </div>
+    </div>
+
+    <!-- /#applyStep2 -->
+
+
+    <div id="applyStep3" class="container hide">
+      <div class="row">
+        <div class="col">
+          <h2>How will you use your loan?</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="PaymentFrequency">Purpose of Loan?</label>
+          <select class="form-control" id="PaymentFrequency">
+            <option selected disabled>Select Option</option>
+            <option>Investment Use</option>
+            <option>Medical Expenses</option>
+            <option>Vacation Use</option>
+            <option>Monthly Living Expenses</option>
+            <option>Automobile Expenses</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h2>Finally, here's your disclosure statement</h2>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col">
+          <div id="applyDisclosureStatement">
+            <p>
+              <strong>Federal E-Sign Act Disclosure and Consent and Consent to Auto-dialed Marketing Calls and Text Messages:</strong>
+            </p>
+            <p>
+              By checking the "I AGREE" box, you affirmatively consent to the electronic delivery of documents, notices or disclosures related to the information you are submitting to Simple Fast Loans. Those documents, notices, and disclosures may
+              include, but are not limited to, documents or notices associated with any loan obtained by you based on information you provide to this website, and the disclosures you may access by clicking on the tabs on this website.
+            </p>
+            <p>
+              Please click on the HTML links to review the disclosures prior to continuing with your submission. In order to retain these disclosures, you may print the documents by selecting Print, select your printer, and click on OK to print to
+              your printer where the document can be printed on your own paper, or select Save or Save As to save and retain a copy on your computer.
+            </p>
+            <p>
+              You understand that you need a computer with Internet access and a compatible browser to receive, view, print or save the documents, notices, or disclosures. Specifically, you must have the following equipment and software:
+            </p>
+
+            <ul>
+              <li>A personal computer or other device which is capable of accessing the Internet.</li>
+              <li>An Internet web browser which is capable of supporting 128-bit SSL encrypted communications, such as Microsoft® Internet Explorer, Chrome®, Safari®, and Firefox®.</li>
+              <li>Software which permits you to receive and access Portable Document Format or “PDF” files, such as Adobe Acrobat Reader® version 8.0 and higher.</li>
+              <li>A valid e-mail address on file with us, and e-mail software capable of interfacing with standard e-mail protocols.</li>
+              <li>Access to a printer with the ability to download information in order to keep copies of any documents for your records.</li>
+            </ul>
+            <p>
+              By affirmatively consenting, you confirm that you have access to the necessary hardware and software.
+              If you do not agree to receive these documents, notices and disclosures electronically, please do not place a checkmark in the “I AGREE” box and discontinue providing your information to us. You may withdraw your consent by unchecking
+              the "I AGREE" button before continuing, but understand that doing so means that we will not be able to contact you as described below. If after consenting, you wish to withdraw your consent at a later time, you can do so by contacting
+              us at 866-521-1445, or email us at customerservice@simplefastloans.com.
+            </p>
+            <p>
+              To update your contact information or obtain a copy of any document, notice or disclosure, you may contact us at the number, email address or mailing address set forth above.
+            </p>
+            <p>
+              BY CHECKING THE "I AGREE" BOX, (1) YOU CONSENT TO RECEIVE IN AN ELECTRONIC FORMAT ANY DOCUMENTS, NOTICES, OR DISCLOSURES RELATED TO THE INFORMATION SUBMITTED TO US, AND (2) YOU ACKNOWLEDGE THAT YOU PRINTED OR SAVED A COPY OF THIS
+              CONSENT.
+            </p>
+            <p>
+              Consent to Auto-dialed Marketing Calls and Text Messages. By checking the "I AGREE" box, you authorize Simple Fast Loans (including its agents and any related entities) to make telemarketing calls and send marketing text messages to
+              your mobile telephone number listed above using an automatic telephone dialing system or an artificial or pre-recorded voice on a recurring basis. Signing this consent is not a condition of receiving a loan through us. If you do not
+              wish to receive sales or marketing calls or texts from us, you should not check the "I AGREE" box. You understand that any messages we leave for you may be accessed by anyone with access to your voicemail or texts. You understand that
+              your mobile phone service provider may charge you fees for calls made or texts sent to you, and you agree that we will have no liability for the cost of any such calls or texts. At any time, you may withdraw your consent to receive
+              marketing calls and text messages by calling us at 866-521-1445, emailing us at customerservice@simplefastloans.com, or by other reasonable means. Alternatively, to stop marketing text messages, simply reply "STOP" to any marketing
+              text message that we send you.
+            </p>
+            <p>
+              BY CHECKING THE "I AGREE" BOX AND PROVIDING YOUR MOBILE TELEPHONE NUMBER ABOVE, (1) YOU CONSENT TO OUR PROVIDING AUTODIALED MARKETING CALLS AND TEXTS PER THE DISCLOSURE (ABOVE) TO YOU ELECTRONICALLY AND, (2) YOU CONSENT TO OUR MAKING
+              TELEMARKETING CALLS AND SENDING MARKETING TEXT MESSAGES TO YOU USING THE MOBILE TELEPHONE NUMBER ABOVE.
+            </p>
+          </div>
+          <!-- /#applyDisclosureStatement -->
+        </div>
+      </div>
+
+
+
+      <div id="disclosureConfirm" class="row">
+        <div class="col-12">
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="DisclosureAndConsent">
+            <label class="form-check-label" for="DisclosureAndConsent">
+              I have read, understood and agree to the terms of the Federal E-sign Act Disclosure and Consent, and thereby agree to receive all disclosures and notices in electronic form. I further certify that the information I have provided above
+              is accurate and true and that I have read and understood the terms and conditions.
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="TextMessageConsent">
+            <label class="form-check-label" for="TextMessageConsent">
+              I have read, understand and agree to the terms of the Consent to Auto-dialed Marketing Calls and Text Messages.
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="FairCreditReportingConsent">
+            <label class="form-check-label" for="FairCreditReportingConsent">
+              By checking this box I agree to the terms and conditions outlined in the Fair Credit Reporting Act Notification, and Authorization and Consent to Review Customer Credit Report. <a href="#">(Click here to learn more)</a>.
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- /#disclosureConfirm -->
+
+      <div class="row">
+        <div class="col text-center">
+<img src="img/newCaptchaAnchor.gif" width="400px">
+        </div>
+      </div>
+
+    </div>
+    <!-- /#apply-step3 -->
+
+
+<!-- Apply Button Area -->
+
+    <div class="container-fluid apply-button-area">
+
+      <div id="nextStep1" class="row step-one">
+        <div class="col">
+          <button id="nextButton1" type="button" class="btn btn-primary">Next</button>
+        </div>
+      </div>
+      <div id="nextStep2" class="row step-two hide">
+        <div class="col">
+          <button  id="backButton1" type="button" class="btn btn-outline-secondary">Previous</button> <button id="nextButton2" type="button" class="btn btn-primary next-2">Next</button>
+        </div>
+      </div>
+      <div id="nextStep3" class="row hide">
+        <div class="col">
+          <button id="backButton2" type="button" class="btn btn-outline-secondary">Previous</button> <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+
+  </form>
+
+</div>
+<!-- /#apply -->
+
+
+<footer>
+  <div class="container">
+    <div id="footerNav">
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="contact-us">Contact Us</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="sitemap.xml" target="_blank">XML</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li><a href="#" target="_blank">Website Accessibility Policy</a></li>
+          <li><a href="mailto:customerservice@simplefastloans.com">Accessibility Contact Email</a></li>
+          <li><a href="tel:1-800-922-8803">800-922-8803</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p>&copy; 2020 Simple Fast Loans All Rights Reserved.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div id="social-links">
+          <ul>
+            <li><a href="#" target="_blank"><img src="/assets/media/icon-facebook.105603fd6106dbe4799ce0c02f4c1c4a.svg" alt="Facebook"></a></li>
+            <li><a href="#" target="_blank"><img src="/assets/media/icon-twitter.0ebf123300830799f957070fd722d885.svg" alt="Twitter"></a></li>
+            <li><a href="#" target="_blank"><img src="/assets/media/icon-youtube.d5937f7112167a0d9802504ea831f815.svg" alt="Youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col">
+    <div class="disclosure">
+      <p><strong>*DISCLOSURE:</strong> This is a solicitation for an installment loan, registration loan or advance of credit. This is not a guaranteed offer and is subject to lender's approval and a complete and approved application. Results and
+        actual loan amounts may vary by state. Certain limitations apply. All loans subject to customer's ability to repay. This website does not charge any fees for processing of loans. Loan products and amounts vary by State.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div id="termsConditions">
+      <p><strong>TERMS AND CONDITIONS:</strong></p>
+      <p>Conditional approval is based on information contained in a pre-qualifying report from a credit reporting agency indicating that you meet the criteria for creditworthiness used to approve applications for this offer. This offer may not be extended to you if we determine that the pre-qualifying report was incorrect or you no longer meet the criteria used for this offer. Conditional approval does not guarantee final approval. Final approval is contingent upon a completed and approved application, passing fraud verification, and verification of identification, employment, income, active bank account and debt obligations. All information that you provide must be true and correct. No responsibility is assumed for incorrect information provided by the various consumer credit reporting agencies. You must be at least 18 years of age. You must provide valid government-issued, picture identification. There must be a telephone number at the residential address provided in your application. This conditional offer applies only to loans for personal, family, or household purposes. Individuals who are active duty military personnel, their spouses, and their dependents are not eligible by law.</p>
+      <p><strong>Texas Residents:</strong> This is an offer for credit services from a credit access business, for an installment loan arranged through a third-party lender. This offer is also subject to lender's and CAB's verification of eligibility and a complete and approved application.</p>
+      <p><strong>Missouri Residents:</strong> This offer is for a Small Loan, not a title loan or payday loan, even where title loan or payday loan services are also offered.</p>
+      <p><strong>South Carolina Residents:</strong> Installment loans in South Carolina are subject to customer's ability to repay.</p>
+      <p><strong>Arizona Residents:</strong> This offer is for a registration loan.</p>
+      <p><strong>Tennessee Residents:</strong> This offer is for a advance of credit.</p>
+      <p><strong>Alabama Residents:</strong> This offer is for an advance of credit.</p>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+
+
+  <script src="/assets/javascripts/main-f1c43a4267fdba517a95.js"></script>
+</body>
+</html>

@@ -12,7 +12,7 @@
 
 .cirle-list-style {
   ul {
-    list-style: url("/img/check_circle-blue-24dp.svg");
+    list-style: url("/svg/check_circle-blue-24dp.svg");
   }
 }
 
@@ -26,31 +26,45 @@
 }
 
 .date-field {
-  background-image: url("/img/calendar_today-black-24dp.svg");
+  background-image: url("~media/svg/calendar_today-black-24dp.svg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: right 1em;
 }
 
 .phone-field {
-  background-image: url("/img/phone-black-24dp.svg");
+  background-image: url("~media/svg/phone-black-24dp.svg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: right 1em;
 }
 
 .field-hidden {
-  background-image: url("/img/visibility_off-black-24dp.svg");
+  background-image: url("~media/svg/visibility_off-black-24dp.svg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: right 1em;
 }
 
 .field-shown {
-  background-image: url("/img/visibility-black-24dp.svg");
+  background-image: url("~media/svg/visibility-black-24dp.svg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: right 1em;
+}
+
+
+.green-cirle {
+  color: $font-white;
+  background-color: $main-green;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  display: block;
+  padding-top: 0.25em;
+  font-size: 1.25em;
+  font-weight: 600;
+  margin: 1em auto 0.5em;
 }
 
 .sflfont {

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Application
 ---
 
 <div id="apply">
@@ -46,61 +47,68 @@ layout: default
       </div>
 
       <div class="form-group">
-
         <div class="row">
           <div class="col">
-            <label for="Promo">Offer Promo Code</label>
-            <input type="text" class="form-control" id="Promo">
-          </div>
-          <div class="col">
-            <label for="Military">Are you active military?</label>
-            <select class="form-control" id="Military" required>
-              <option selected disabled>Select Option</option>
-              <option>Yes</option>
-              <option>No</option>
-            </select>
+            <label for="MilitaryStatus">Are you serving on active military, national guard, or reserve duty as a member of the armed forces, or are you a spouse, child or dependent of such a member?*</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="MilitaryStatus" id="MilitaryTrue" value="true">
+              <label class="form-check-label" for="MilitaryStatus">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="MilitaryStatus" id="MilitaryFalse" value="false">
+              <label class="form-check-label" for="MilitaryStatus">No</label>
+            </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col">
-            <label for="FirstName">First Name</label>
+
+            <label for="Promo">Offer Promo Code (optional)</label>
+            <p>Find your Mail Offer Promo Code in your Mail Offer Letter. No Mail Offer Promo Code, no problem! Leave the field blank and continue to apply.</p>
+            <input type="text" class="form-control" id="Promo">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="FirstName">First Name*</label>
             <input type="text" class="form-control" id="FirstName" required>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <label for="LastName">Last Name</label>
+            <label for="LastName">Last Name*</label>
             <input type="text" class="form-control" id="LastName" required>
           </div>
         </div>
 
         <div class="row">
           <div class="col-2">
-            <label for="DoB">Date of Birth</label>
+            <label for="DoB">Date of Birth*</label>
             <input type="date" class="form-control date-field" id="DoB" name="DoB" value="" min="" max="" required>
           </div>
               <div class="col">
-              <label for="SSN">SSN</label>
+              <label for="SSN">SSN*</label>
               <input type="password" class="form-control field-hidden" id="SSN" name="SSN" inputmode="numeric" minlength="9" maxlength="11" pattern="(?!000)([0-6]\d{2}|7([0-6]\d|7[012]))([ -])?(?!00)\d\d\3(?!0000)\d{4}" required>
           </div>
           <div class="col">
-            <label for="SSNCheck">Reenter SSN</label>
+            <label for="SSNCheck">Reenter SSN*</label>
             <input type="" class="form-control field-shown" id="SSNCheck" inputmode="numeric" minlength="9" maxlength="11" pattern="(?!000)([0-6]\d{2}|7([0-6]\d|7[012]))([ -])?(?!00)\d\d\3(?!0000)\d{4}" required>
           </div>
           <div class="col-2">
-            <div class="form-group form-check-inline">
+            <div class="form-group form-check">
               <label class="form-check-label" for="ShowSSN">
                 Show SSN Number
               </label>
-              <input type="checkbox" class="form-check-input" id="ShowSSN">
+              <p><input type="checkbox" class="form-check-input" id="ShowSSN"></p>
             </div>
           </div>
         </div>
 
       <div class="row">
           <div class="col-4">
-            <label for="IDType">ID Type</label>
+            <label for="IDType">ID Type*</label>
             <select class="form-control" id="IDType" required>
               <option selected disabled>Select Option</option>
               <option>Driver's License</option>
@@ -110,7 +118,7 @@ layout: default
             </select>
           </div>
           <div class="col">
-            <label for="IDNumber">ID Number</label>
+            <label for="IDNumber">ID Number*</label>
             <input type="text" class="form-control" id="IDNumber" required>
           </div>
         </div>
@@ -118,13 +126,13 @@ layout: default
         <h2>How can we reach you?</h2>
         <div class="row">
           <div class="col">
-            <label for="EmailAddress">Email Address</label>
+            <label for="EmailAddress">Email Address*</label>
             <input type="email" class="form-control" id="EmailAddress" required>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <label for="PhoneNumber">Phone Number</label>
+            <label for="PhoneNumber">Phone Number*</label>
             <input type="text" inputmode="numeric" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" class="form-control phone-field" id="PhoneNumber" maxlength="14" required placeholder="(xxx) xxx-xxxx">
           </div>
           <div class="col">
@@ -137,7 +145,7 @@ layout: default
 
         <div class="row">
           <div class="col">
-            <label for="StreetAddress">Street Address</label>
+            <label for="StreetAddress">Street Address*</label>
             <input type="text" class="form-control" id="StreetAddress">
           </div>
         </div>
@@ -164,11 +172,11 @@ layout: default
         </div>
         <div class="row">
           <div class="col-6">
-            <label for="CityAddress">City</label>
+            <label for="CityAddress">City*</label>
             <input type="text" class="form-control" id="CityAddress">
           </div>
           <div class="col">
-            <label for="StateAddress">State</label>
+            <label for="StateAddress">State*</label>
             <select class="form-control" id="StateAddress">
               <option selected disabled>Select Option</option>
               <option>Alabama</option>
@@ -187,13 +195,13 @@ layout: default
             </select>
           </div>
           <div class="col">
-            <label for="ZIPCodeAddress">ZIP Code</label>
+            <label for="ZIPCodeAddress">ZIP Code*</label>
             <input type="text" pattern="(\d{5}([\-]\d{4})?)" class="form-control" id="ZIPCodeAddress">
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <label for="OccupantStatus">Occupant Status</label>
+            <label for="OccupantStatus">Occupant Status*</label>
             <select class="form-control" id="OccupantStatus">
               <option selected disabled>Select Option</option>
               <option>Owner</option>
@@ -202,7 +210,7 @@ layout: default
             </select>
           </div>
           <div class="col">
-            <label for="TimeAtResidence">Time at Residence</label>
+            <label for="TimeAtResidence">Time at Residence*</label>
             <select class="form-control" id="TimeAtResidence">
               <option selected disabled>Select Option</option>
               <option>Less than 1 Year</option>
@@ -221,7 +229,7 @@ layout: default
         </div>
         <div class="row">
           <div class="col">
-            <label for="MaritalStatus">Marital Status</label>
+            <label for="MaritalStatus">Marital Status*</label>
             <select class="form-control" id="MaritalStatus">
               <option selected disabled>Select Option</option>
               <option>Single</option>
@@ -231,7 +239,7 @@ layout: default
             </select>
           </div>
           <div class="col">
-            <label for="MaritalStatus">Does your Spouse/Partner live here?</label><br>
+            <label for="MaritalStatus">Do you and your Spouse reside in the same address?*</label><br>
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="MaritalStatus" id="MarriedTrue" value="true">
               <label class="form-check-label" for="MaritalStatus">Yes</label>
@@ -245,8 +253,8 @@ layout: default
       </div>
     </div>
     <!-- /#applyStep1 -->
-
-    <div id="applyStep2" class="hide step-two container">
+<div id="applyStep2" class="step-two container"> <!--FOR TESTING -->
+    <!-- <div id="applyStep2" class="hide step-two container"> -->
       <div class="row">
         <div class="col">
           <h2>Tell us a little bit about your work</h2>
@@ -256,7 +264,7 @@ layout: default
 
       <div class="row">
         <div class="col">
-          <label for="EmploymentStatus">Employment Status</label>
+          <label for="EmploymentStatus">Employment Status*</label>
           <select class="form-control" id="EmploymentStatus">
             <option selected disabled>Select Option</option>
             <option>Employed</option>
@@ -266,7 +274,7 @@ layout: default
           </select>
         </div>
         <div class="col">
-          <label for="EmploymentLength">Length of Employment</label>
+          <label for="EmploymentLength">Length of Employment*</label>
           <select class="form-control" id="EmploymentLength">
             <option selected disabled>Select Option</option>
             <option>0 - 1 Years</option>
@@ -278,18 +286,18 @@ layout: default
       </div>
       <div class="row">
         <div class="col">
-          <label for="EmployerName">Employer Name</label>
+          <label for="EmployerName">Employer Name*</label>
           <input type="text" class="form-control" id="EmployerName">
         </div>
       </div>
       <div class="row">
 
         <div class="col">
-          <label for="JobTitle">Job Title</label>
+          <label for="JobTitle">Job Title*</label>
           <input type="text" class="form-control" id="JobTitle">
         </div>
         <div class="col">
-          <label for="WorkPhone">Work Phone Number</label>
+          <label for="WorkPhone">Work Phone Number*</label>
           <input type="text" inputmode="numeric" pattern="[\(]\d{3}[\)][ ]\d{3}[\-]\d{4}" class="form-control phone-field" id="WorkPhone" maxlength="14" placeholder="(xxx) xxx-xxxx">
         </div>
       </div>
@@ -302,7 +310,7 @@ layout: default
 
       <div class="row">
         <div class="col">
-          <label for="PaymentFrequency">How often are you paid?</label>
+          <label for="PaymentFrequency">How often are you paid?*</label>
           <select class="form-control" id="PaymentFrequency">
             <option selected disabled>Select Option</option>
             <option>Weekly</option>
@@ -313,7 +321,7 @@ layout: default
         </div>
 
         <div class="col">
-          <label for="PaymentFrequency">Payroll Method</label>
+          <label for="PaymentFrequency">Payroll Method*</label>
           <select class="form-control" id="PaymentFrequency">
             <option selected disabled>Select Option</option>
             <option>Direct Deposite</option>
@@ -322,7 +330,7 @@ layout: default
         </div>
 
         <div class="col">
-          <label for="DateofPay">Date of Pay</label>
+          <label for="DateofPay">Next Pay Date</label>
           <input type="date" class="form-control date-field" id="DateofPay" name="DateofPay" value="" min="" max="">
         </div>
       </div>
@@ -350,12 +358,17 @@ layout: default
       <div class="row">
         <div class="col">
           <h2>How can we pay you?</h2>
+
+<div class="checking-info">
+  You must have an active checking account to qualify.  We do not currently accept savings or prepaid accounts.
+</div>
+
         </div>
       </div>
 
       <div class="row">
         <div class="col">
-          <label for="RoutingNumber">Routing Number</label>
+          <label for="RoutingNumber">Routing Number*</label>
           <input type="number" min="0" class="form-control" id="RoutingNumber">
         </div>
         <div class="col">
@@ -366,20 +379,27 @@ layout: default
 
       <div class="row">
         <div class="col">
-          <label for="AccountNumber">Account Number</label>
+          <label for="AccountNumber">Account Number*</label>
           <input type="number" min="0" class="form-control" id="AccountNumber">
         </div>
         <div class="col">
-          <label for="AccountNumberConfirm">Confirm Account Number </label>
+          <label for="AccountNumberConfirm">Confirm Account Number*</label>
           <input type="number" min="0" class="form-control" id="AccountNumberConfirm">
         </div>
       </div>
+
+      <div class="row">
+        <div class="col text-center voided-check">
+          <img src="{% asset_path voidcheck.png %}" alt="Voided Check" class="img-fluid">
+        </div>
+      </div>
+
     </div>
 
     <!-- /#applyStep2 -->
 
-
-    <div id="applyStep3" class="container hide">
+<div id="applyStep3" class="container"> <!-- FOR TESTING -->
+    <!-- <div id="applyStep3" class="container hide"> -->
       <div class="row">
         <div class="col">
           <h2>How will you use your loan?</h2>
@@ -503,7 +523,7 @@ layout: default
 
       <div class="row">
         <div class="col text-center">
-<img src="img/newCaptchaAnchor.gif" width="400px">
+          <img src="{% asset_path domoCaptcha.png %}" alt="Domo arigato Mr. Roboto Captcha">
         </div>
       </div>
 

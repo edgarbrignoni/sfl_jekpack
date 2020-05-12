@@ -1,5 +1,7 @@
 /*** Count Us Page ***/
 #contactPage {
+  margin-top: 2em;
+
   .contact-options {
     img {
       float: left;
@@ -8,6 +10,18 @@
     margin-top: 1em;
   }
   .form {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  label {
+    color: $main-blue;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  .submit-area {
     margin-top: 2em;
+    text-align: center;
   }
 }

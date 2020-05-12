@@ -19,12 +19,12 @@ title: Contact
     <div class="col contact-options">
       <img src="{% asset_path Chat.png %}" alt="Chat Icon">
       <strong>Chat With Us</strong><br>
-      Click here to chat with one of our representatives!
+      Click <a href="#">here</a> to chat with one of our representatives!
     </div>
     <div class="col contact-options">
       <img src="{% asset_path Call.png %}" alt="Chat Icon">
       <strong>Give Us A Call</strong><br>
-      Got questions? We’re here to help!  (866) 521-1445
+      Got questions? We’re here to help! <strong><a href="#">(866) 521-1445</a></strong>
     </div>
   </div>
   <div class="row">
@@ -83,7 +83,7 @@ title: Contact
   <div class="row">
     <div class="col">
       <label for="4SSN">Last Four Digits of SSN*</label>
-      <input type="text" class="form-control" id="4SSN" required>
+      <input type="text" class="form-control field-hidden" id="4SSN" required>
     </div>
     <div class="col">
       <label for="AccountNumber">Account Number</label>
@@ -97,7 +97,7 @@ title: Contact
     </div>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col submit-area">
       <button type="button" class="btn btn-primary">Submit</button>
     </div>
   </div>

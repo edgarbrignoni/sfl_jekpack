@@ -1,0 +1,27 @@
+/*** Terms Of Use ***/
+#termsOfUse {
+  margin: 4em 0;
+  font-family: "Source Sans Pro Light";
+  font-weight: 300;
+  a {
+    color: $main-green;
+    text-decoration: underline;
+  }
+  h1 {
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 1.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  strong {
+    color: $main-blue;
+    font-weight: 700;
+  }
+}

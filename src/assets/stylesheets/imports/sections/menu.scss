@@ -50,8 +50,8 @@ nav {
     list-style: none;
     float: left;
     margin-top: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
     border-left: 1px solid $grey;
   }
   li:first-child {
@@ -79,12 +79,12 @@ nav {
     font-size: 1em;
     width: max-content;
     padding-top: 1em;
-    padding-left: 0.5em;
-    padding-right: 1.35em;
-    padding-bottom: 0.5em;
-    border-left: 1px solid $grey;
-    border-bottom: 1px solid $grey;
-    border-right: 1px solid $grey;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    padding-bottom: 1em;
+    // border-left: 1px solid $grey;
+    // border-bottom: 1px solid $grey;
+    // border-right: 1px solid $grey;
     left: -1px;
   }
 

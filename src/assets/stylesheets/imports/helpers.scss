@@ -71,3 +71,23 @@
 .hide {
   display: none !important;
 }
+
+
+//PRINT NOTICE
+#printNotice {
+  display: none;
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media print {
+    body > * {
+        display: none;
+    }
+
+    #printNotice {
+        display: block;
+    }
+}

@@ -26,31 +26,28 @@
 }
 
 .date-field {
-  background-image: url("~media/svg/calendar_today-black-24dp.svg");
+  background-image: url("~media/svg/calendar_today-black-18dp.svg");
   background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: right 1em;
+  background-position: right 0.5em bottom 50%;
+  padding-right: 0.25em;
 }
 
 .phone-field {
   background-image: url("~media/svg/phone-black-24dp.svg");
   background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: right 1em;
+  background-position: right 1em bottom 50%;
 }
 
 .field-hidden {
   background-image: url("~media/svg/visibility_off-black-24dp.svg");
   background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: right 1em;
+  background-position: right 1em bottom 50%;
 }
 
 .field-shown {
   background-image: url("~media/svg/visibility-black-24dp.svg");
   background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: right 1em;
+  background-position: right 1em bottom 50%;
 }
 
 

@@ -1,74 +1,73 @@
 /*** Menu ***/
+
 nav {
 
-  background-color: $main-blue;
 
-#topNav {
+  //Mobile
+  // @media (max-width: 767px) {
+  //   background-color: $mobile-background;
+  //   color: $font-white;
+  // }
 
-  li {
-    list-style: none;
-  }
-  height: 2em;
-}
-
-@media (min-width: 768px) {
-  color: $main-blue;
-  background-color: $grey-red; //testing
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: 1em;
-  font-weight: 700;
-  z-index: 1;
-  position: relative;
-
-  .nav-buttons {
-    img {
-      padding-right: 0.5em;
+  //Desktop
+    @media (min-width: 768px) {
+      background-color: $grey-red;
+      color: $main-blue;
     }
-    .btn-login {
-      background-color: $main-blue;
-      margin-left: 2em;
-      margin-right: 1em;
-    }
-    .btn-login:hover {
-      background-color: $light-blue;
-      border-color: $light-blue;
-    }
-  }
 
-  a {
-    color: $main-blue;
-  }
-  a:hover {
-    color: $light-blue;
-  }
-  ul {
-    margin: 0;
-    float: right;
-  }
-  li {
-    list-style: none;
-    float: left;
-    margin-top: 0.5em;
-    padding-left: 1.25em;
-    padding-right: 1.25em;
-    border-left: 1px solid $grey;
-  }
-  li:first-child {
-    border-left: none;
-  }
-}
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+    .nav-buttons {
+      img {
+        padding-right: 0.5em;
+      }
 
-}
-//Menu Dropdown
-#topNav {
+      .btn-login {
+        background-color: $main-blue;
+        margin-left: 2em;
+        margin-right: 1em;
+      }
+
+      .btn-login:hover {
+        background-color: $light-blue;
+        border-color: $light-blue;
+      }
+    }
+
+    a {
+      color: $main-blue;
+    }
+
+    a:hover {
+      color: $light-blue;
+    }
+
+    ul {
+      margin: 0;
+      float: right;
+    }
+
+    li {
+      list-style: none;
+      float: left;
+      margin-top: 0.5em;
+      padding-left: 1.25em;
+      padding-right: 1.25em;
+      border-left: 1px solid $grey;
+    }
+
+    li:first-child {
+      border-left: none;
+    }
+
+  //Menu Dropdown
   .dropdown-nav {
     position: relative;
     display: inline-block;
-  }
-
-  .dropdown-nav:hover {
-    // background-color: $grey-light;
   }
 
   .dropdown-content {
@@ -78,13 +77,7 @@ nav {
     z-index: 2;
     font-size: 1em;
     width: max-content;
-    padding-top: 1em;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-    padding-bottom: 1em;
-    // border-left: 1px solid $grey;
-    // border-bottom: 1px solid $grey;
-    // border-right: 1px solid $grey;
+    padding: 1em 1.4em;
     left: -1px;
   }
 
@@ -102,5 +95,5 @@ nav {
 
   .dropdown-nav:hover .dropdown-content {
     display: block;
-  }
+    }
 }

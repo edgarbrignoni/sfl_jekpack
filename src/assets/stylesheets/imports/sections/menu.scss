@@ -2,14 +2,27 @@
 
 nav {
 
+// Mobile
+  @media (max-width: 767px) {
+    background-color: $main-blue;
+    color: $font-white;
+    font-size: 0.75em;
+    text-align: center;
+    height: 4em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
-  //Mobile
-  // @media (max-width: 767px) {
-  //   background-color: $mobile-background;
-  //   color: $font-white;
-  // }
+    a {
+      color: $font-white;
+    }
+    a:visited {
+      color: $font-white;
+    }
 
-  //Desktop
+  }
+
+//Desktop
     @media (min-width: 768px) {
       background-color: $grey-red;
       color: $main-blue;

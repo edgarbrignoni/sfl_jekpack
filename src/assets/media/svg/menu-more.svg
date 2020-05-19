@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131" height="124" viewBox="0 0 131 124">
+  <defs>
+    <image id="image" width="89" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAAALCAYAAAAUTSFTAAAAaklEQVRIie3XwQmAMBBE0Z8g6tGLB7H/jsQaBAsQvKwEU0JcJc6DLWD/bYKZLcAMWD4pIwAdsDbACAwK+5gpAmelz33FEf9ewIMiO1BkB4rsQJEdKLKDFLmt/st39WmM7Dm0Fl9Z9+KD7QLduwz+4bwdWAAAAABJRU5ErkJggg=="/>
+  </defs>
+  <image id="line_01" data-name="line 01" x="22" y="25" width="89" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAAAKCAYAAADfEfL2AAAAVUlEQVRIie3S0QmAMBAE0UkQ/TBYgf2XJHazIliCWSXsgytghyuSTmAH9Fy8owALcExAA9aE7abVfG93qoMP/IVENkhkg0Q2SGSDRDa4I8/Dr/wSbBe23wkYr+/s+QAAAABJRU5ErkJggg=="/>
+  <use id="line_02" data-name="line 02" x="22" y="57" xlink:href="#image"/>
+  <use id="line_03" data-name="line 03" x="22" y="90" xlink:href="#image"/>
+</svg>

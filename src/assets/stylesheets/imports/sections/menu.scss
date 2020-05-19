@@ -20,6 +20,42 @@ nav {
       color: $font-white;
     }
 
+    .mobile-home {
+      background-image: url("~media/svg/menu-home.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .mobile-about {
+      background-image: url("~media/svg/menu-about-us.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .mobile-apply {
+      background-image: url("~media/svg/menu-apply-now.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .mobile-account {
+      background-image: url("~media/svg/menu-my-account.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .mobile-more {
+      background-image: url("~media/svg/menu-more.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+
   }
 
 //Desktop

@@ -24,9 +24,15 @@
   }
 }
 
-.cirle-list-style {
+.cirle-check-style {
   ul {
-    list-style: url("/svg/check_circle-blue-24dp.svg");
+    list-style: url("~media/svg/circle-blue.svg");
+  }
+}
+
+.green-check-style {
+  ul {
+    list-style: url("~media/svg/check-green.svg");
   }
 }
 

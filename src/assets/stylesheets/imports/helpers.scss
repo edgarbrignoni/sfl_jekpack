@@ -24,9 +24,15 @@
   }
 }
 
-.cirle-list-style {
+.cirle-check-style {
   ul {
-    list-style: url("/svg/check_circle-blue-24dp.svg");
+    list-style: url("~media/svg/circle-blue.svg");
+  }
+}
+
+.green-check-style {
+  ul {
+    list-style: url("~media/svg/check-green.svg");
   }
 }
 
@@ -40,14 +46,14 @@
 }
 
 .date-field {
-  background-image: url("~media/svg/calendar_today-black-18dp.svg");
+  background-image: url("~media/svg/calendar_today-black.svg");
   background-repeat: no-repeat;
   background-position: right 0.5em bottom 50%;
   padding-right: 0.25em;
 }
 
 .phone-field {
-  background-image: url("~media/svg/phone-black-24dp.svg");
+  background-image: url("~media/svg/phone-black.svg");
   background-repeat: no-repeat;
   background-position: right 1em bottom 50%;
 }
@@ -59,7 +65,7 @@
 }
 
 .field-shown {
-  background-image: url("~media/svg/visibility-black-24dp.svg");
+  background-image: url("~media/svg/visibility-black.svg");
   background-repeat: no-repeat;
   background-position: right 1em bottom 50%;
 }

@@ -3,29 +3,34 @@
 <!-- Mobile Menu -->
   <div class="container mobile">
     <div class="row">
-      <div class="col mobile-home">
-
-<a href="{{ "/" | relURL }}">Home</a>
+<a href="{{ "/" | relURL }}">
+      <div class="col home">
+Home
       </div>
-      <div class="col mobile-about">
-
-<a href="{{ "/about" | relURL }}">About</a>
+</a>
+<a href="{{ "/about" | relURL }}">
+      <div class="col about">
+About
       </div>
-      <div class="col mobile-apply">
-
+</a>
+<a href="{{ "/apply" | relURL }}">
+      <div class="col apply">
 Apply Now
       </div>
-      <div class="col mobile-account">
+</a>
 
-  <a href="{{ "/account" | relURL }}">My Account</a>
-  
+<a href="{{ "/account" | relURL }}">
+      <div class="col account">
+  My Account
       </div>
-      <div class="col mobile-more">
-
+</a>
+<a href="{{ "" | relURL }}">
+      <div class="col more">
 More
       </div>
+</a>
     </div>
-  </div>
+</div>
 
 <!-- Desktop Menu -->
   <div class="container desktop">

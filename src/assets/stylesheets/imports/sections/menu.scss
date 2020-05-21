@@ -6,53 +6,52 @@ nav {
   @media (max-width: 767px) {
     background-color: $main-blue;
     color: $font-white;
+    border-top: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: $grey;
     font-size: 0.75em;
     text-align: center;
-    height: 4em;
     position: fixed;
     bottom: 0;
     width: 100%;
 
     a {
       color: $font-white;
+      margin-top: 1em;
     }
     a:visited {
       color: $font-white;
     }
 
-    .mobile-home {
+
+    .home, .about, .apply, .account, .more {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 3em;
+    }
+
+    .home {
       background-image: url("~media/svg/menu-home.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
     }
 
-    .mobile-about {
+    .about {
       background-image: url("~media/svg/menu-about-us.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
     }
 
-    .mobile-apply {
+    .apply {
       background-image: url("~media/svg/menu-apply-now.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
     }
 
-    .mobile-account {
+    .account {
       background-image: url("~media/svg/menu-my-account.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
     }
 
-    .mobile-more {
+    .more {
       background-image: url("~media/svg/menu-more.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
     }
 
 

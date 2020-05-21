@@ -1,7 +1,6 @@
 /***  accordion.css ***/
 /** https://codepen.io/raubaca/pen/PZzpVe **/
 
-
 /* Accordion styles */
 
 #accordion {
@@ -12,9 +11,8 @@
   }
 
 .tabs {
-  // border-radius: 0.5em;
   overflow: hidden;
-  // box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+
 }
 .tab {
   width: 100%;
@@ -23,12 +21,16 @@
   overflow: hidden;
   &-label {
     display: flex;
-    // justify-content: space-between;
     padding: 1em;
     margin-bottom: 0;
     background: $accordion-main;
     font-weight: bold;
     cursor: pointer;
+
+@media (max-width: 767px) {
+    padding: 0.25em;
+  }
+
     /* Icon */
     &:hover {
       background: $accordion-select;
@@ -41,6 +43,9 @@
       margin-left: 0.5em;
       text-align: center;
       transition: all .35s;
+      @media (max-width: 767px) {
+          margin-right: 1em;
+        }
     }
   }
   &-content {

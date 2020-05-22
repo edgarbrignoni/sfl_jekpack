@@ -1,6 +1,6 @@
 /*** Blog Page ***/
 #blogPage {
-  margin: 3em 0;
+  margin: 5em 0;
   color: $main-green;
   a {
     color: $main-green;
@@ -13,8 +13,12 @@
 
 /*** Blog Posts***/
 #blogPost {
-  margin: 3em 0;
+  margin: 5em 0;
+  color: $main-blue;
   h2 {color: $main-green;}
   h3 {color: $main-green;}
-  color: $main-blue;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }

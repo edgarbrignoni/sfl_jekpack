@@ -5,7 +5,7 @@ title: Contact
 <div id="contactPage">
   <div class="container">
     <div class="row">
-      <div class="col-2">
+      <div class="col-2 desktop">
         <img src="{% asset_path contact-us.svg %}" alt="Contact Us">
       </div>
       <div class="col">
@@ -16,7 +16,7 @@ title: Contact
         </div>
 
   <div class="row">
-    <div class="col contact-options">
+    <div class="col-12 col-md-6 contact-options">
       <img src="{% asset_path Chat.png %}" alt="Chat Icon">
       <strong>Chat With Us</strong><br>
       Click <a href="#">here</a> to chat with one of our representatives!
@@ -28,7 +28,7 @@ title: Contact
     </div>
   </div>
   <div class="row">
-    <div class="col contact-options">
+    <div class="col-12 col-md-6 contact-options">
       <img src="{% asset_path E-mail.png %}" alt="Chat Icon">
       <strong>Send Us An E-mail</strong><br>
       If you’d like to e-mail us, simply fill out the form below!
@@ -81,7 +81,7 @@ title: Contact
     </div>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col-12 col-md-6">
       <label for="4SSN">Last Four Digits of SSN*</label>
       <input type="text" class="form-control field-hidden" id="4SSN" required>
     </div>
@@ -93,7 +93,7 @@ title: Contact
   <div class="row">
     <div class="col">
       <label for="Message">Message*</label>
-      <textarea class="form-control" id="Message" rows="3" required></textarea>
+      <textarea class="form-control" id="Message" rows="5" required></textarea>
     </div>
   </div>
   <div class="row">

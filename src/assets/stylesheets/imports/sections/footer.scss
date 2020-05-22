@@ -35,4 +35,24 @@ footer {
     width: 3.5em;
     height: 3.5em;
   }
+
+  @media (max-width: 767px) {
+    .footer-links {
+      a {
+        font-size: 1.25em;
+      }
+      li {
+        display: list-item;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        border-bottom: 0.25em solid white;
+        width: 60%;
+        margin-left: 20%;
+      }
+      li:last-of-type {
+        border-bottom: 0;
+        }
+      }
+    }
+
 }

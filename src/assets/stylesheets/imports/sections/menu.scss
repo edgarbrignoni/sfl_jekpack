@@ -20,42 +20,24 @@ nav {
 
     a {
       color: $font-white;
-      margin-top: 1em;
+      padding-top: 1em;
     }
     a:visited {
       color: $font-white;
     }
-
-
-    .home, .about, .apply, .account, .more {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 3em;
+    img {
+      max-height: 3em;
     }
 
-    .home {
-      background-image: url("~media/svg/menu-home.svg");
-    }
-
-    .about {
-      background-image: url("~media/svg/menu-about-us.svg");
-    }
-
-    .apply {
-      background-image: url("~media/svg/menu-apply-now.svg");
-    }
-
-    .account {
-      background-image: url("~media/svg/menu-my-account.svg");
-    }
-
-    .more {
-      background-image: url("~media/svg/menu-more.svg");
-    }
-
-
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0.25em;
+    display: grid;
+    justify-content: center;
+    grid: repeat(2, 20%) / auto-flow 20%;
   }
+}
 
 //Desktop
     @media (min-width: 768px) {
@@ -94,6 +76,7 @@ nav {
       color: $light-blue;
     }
 
+#desktopMenu {
     ul {
       margin: 0;
       float: right;
@@ -111,6 +94,7 @@ nav {
     li:first-child {
       border-left: none;
     }
+}
 
   //Menu Dropdown
   .dropdown-nav {

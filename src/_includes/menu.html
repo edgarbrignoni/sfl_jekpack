@@ -1,39 +1,28 @@
 <nav>
 
 <!-- Mobile Menu -->
-  <div class="container mobile">
-    <div class="row">
-<a href="{{ "/" | relURL }}">
-      <div class="col home">
-Home
-      </div>
-</a>
-<a href="{{ "/about" | relURL }}">
-      <div class="col about">
-About
-      </div>
-</a>
-<a href="{{ "/apply" | relURL }}">
-      <div class="col apply">
-Apply Now
-      </div>
-</a>
 
-<a href="{{ "/account" | relURL }}">
-      <div class="col account">
-  My Account
-      </div>
-</a>
-<a href="{{ "" | relURL }}">
-      <div class="col more">
-More
-      </div>
-</a>
-    </div>
+<div id="mobileMenu" class="mobile">
+  <ul>
+    <li><a href="{{ "/" | relURL }}"><img src="{% asset_path menu-home.svg %}" alt="Home"></a></li>
+    <li><a href="{{ "/" | relURL }}">Home</a></li>
+
+    <li><a href="{{ "/about" | relURL }}"><img src="{% asset_path menu-about-us.svg %}" alt="About Us"></a></li>
+    <li><a href="{{ "/about" | relURL }}">About Us</a></li>
+
+    <li><a href="{{ "/apply" | relURL }}"><img src="{% asset_path menu-apply-now.svg %}" alt="Apply Now"></a></li>
+    <li><a href="{{ "/apply" | relURL }}"><strong>Apply Now</strong></a></li>
+
+    <li><a href="{{ "/account" | relURL }}"><img src="{% asset_path menu-my-account.svg %}" alt="My Account Us"></a></li>
+    <li><a href="{{ "/account" | relURL }}">My Account</a></li>
+
+    <li><a href="{{ "" | relURL }}"><img src="{% asset_path menu-more.svg %}" alt="More"></a></li>
+    <li><a href="{{ "" | relURL }}">More</a></li>
+  </ul>
 </div>
 
 <!-- Desktop Menu -->
-  <div class="container desktop">
+  <div id="desktopMenu" class="container desktop">
     <div class="row">
       <div class="col">
         <ul>

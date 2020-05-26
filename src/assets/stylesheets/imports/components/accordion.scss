@@ -82,3 +82,59 @@ input:checked {
   }
 }
 }
+
+/* Footer Accordion */
+#footer-accordion {
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+.tabs {
+  overflow: hidden;
+
+}
+.tab {
+  width: 100%;
+  margin-bottom: 1em;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    margin-bottom: 0;
+    font-weight: bold;
+    cursor: pointer;
+    &::before {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      margin-right: 0.5em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75em;
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+    &::before {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding-top: 1em;
+  }
+}
+}

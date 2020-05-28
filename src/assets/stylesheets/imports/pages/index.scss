@@ -89,7 +89,7 @@
     display: flex;
     margin-top: -2em;
     @media (max-width: 767px) {
-      display: none;
+      // display: none;
     }
     span {
       display: block;
@@ -105,6 +105,9 @@
       content: "";
       border-right: 14em solid $main-green;
       border-bottom: 2em solid #fff;
+      @media (max-width: 767px) {
+        border-right: 11em solid $main-green;
+      }
     }
     span:last-of-type:before {
       display: block;
@@ -113,6 +116,9 @@
       content: "";
       border-left: 13.95em solid $main-green;
       border-bottom: 2em solid #fff;
+      @media (max-width: 767px) {
+        border-left: 10.8em solid $main-green;
+      }
     }
   }
 
@@ -189,9 +195,11 @@
       padding: 1em 0;
       margin: 2em 1em;
       @media (max-width: 767px) {
-        padding: 0;
-        margin: 0;
+      margin: 1em 1em;
       }
+    }
+    .btn-lg {
+      width: 100%;
     }
   }
   .slf-benefits {

@@ -4,20 +4,25 @@
 
 <div id="mobileMenu" class="mobile">
   <ul>
-    <li><a href="{{ "/" | relURL }}"><img src="{% asset_path menu-home.svg %}" alt="Home"></a></li>
-    <li><a href="{{ "/" | relURL }}">Home</a></li>
+    <li>
+      <a href="{{ "/" | relURL }}"><img src="{% asset_path menu-home.svg %}" alt="Home"></a>
+    <p><a href="{{ "/" | relURL }}">Home</a></p>
+    </li>
 
-    <li><a href="{{ "/about" | relURL }}"><img src="{% asset_path menu-about-us.svg %}" alt="About Us"></a></li>
-    <li><a href="{{ "/about" | relURL }}">About Us</a></li>
+    <li>
+      <a href="{{ "/about" | relURL }}"><img src="{% asset_path menu-about-us.svg %}" alt="About Us"></a>
+    <p><a href="{{ "/about" | relURL }}">About Us</a></p>
+    </li>
 
-    <li><a href="{{ "/apply" | relURL }}"><img src="{% asset_path menu-apply-now.svg %}" alt="Apply Now"></a></li>
-    <li><a href="{{ "/apply" | relURL }}"><strong>Apply Now</strong></a></li>
 
-    <li><a href="{{ "/account" | relURL }}"><img src="{% asset_path menu-my-account.svg %}" alt="My Account Us"></a></li>
-    <li><a href="{{ "/account" | relURL }}">My Account</a></li>
+    <li><a href="{{ "/apply" | relURL }}"><img src="{% asset_path menu-apply-now.svg %}" alt="Apply Now"></a><p><a href="{{ "/apply" | relURL }}"><strong>Apply Now</strong></a></p></li>
 
-    <li><a href="{{ "" | relURL }}"><img src="{% asset_path menu-more.svg %}" alt="More"></a></li>
-    <li><a href="{{ "" | relURL }}">More</a></li>
+
+    <li><a href="{{ "/account" | relURL }}"><img src="{% asset_path menu-my-account.svg %}" alt="My Account Us"></a><p><a href="{{ "/account" | relURL }}">My Account</a></p></li>
+
+
+    <li><a href="{{ "" | relURL }}"><img src="{% asset_path menu-more.svg %}" alt="More"></a><p><a href="{{ "" | relURL }}">More</a></p></li>
+
   </ul>
 </div>
 

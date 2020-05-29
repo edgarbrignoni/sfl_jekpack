@@ -27,7 +27,7 @@
     }
     @media (max-width: 767px) {
       background-color: #dfdfe3;
-      padding-bottom: 2.5em;
+      padding-bottom: 4.5em;
     }
   }
 
@@ -46,7 +46,7 @@
 
   .index-background {
     background-color: $grey-index;
-
+    margin-top: -1px;
   }
 
   .apply-area {
@@ -61,7 +61,8 @@
       text-align: center;
       background: $main-green;
       padding-top: 1em;
-      padding-bottom: 1em;
+      padding-bottom: 0.25em;
+      margin-bottom: 0;
     }
 
     label {
@@ -85,82 +86,22 @@
     }
   }
 
-  .overly-bottom {
-    display: flex;
-    margin-top: -2em;
-    @media (max-width: 767px) {
-      // display: none;
-    }
-    span {
-      display: block;
-      background-color: transparent;
+
+    .overly-bottom {
+      clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+      background-color: $main-green;
       width: 100%;
-      height: 3.5em;
-      position: relative;
+      height: 2em;
+      margin-bottom: 1em;
     }
-    span:first-of-type:after {
-      display: block;
-      position: absolute;
-      top: 0;
-      content: "";
-      border-right: 14em solid $main-green;
-      border-bottom: 2em solid #fff;
-      @media (max-width: 767px) {
-        border-right: 11em solid $main-green;
-      }
-    }
-    span:last-of-type:before {
-      display: block;
-      position: absolute;
-      top: 0;
-      content: "";
-      border-left: 13.95em solid $main-green;
-      border-bottom: 2em solid #fff;
-      @media (max-width: 767px) {
-        border-left: 10.8em solid $main-green;
-      }
-    }
-  }
 
   .overly-top {
-    display: flex;
-    margin-top: -2em;
+    clip-path: polygon(45vw 0%, 50% 100%, 55vw 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    background-color: $grey-index;
+    width: 100%;
+    height: 2em;
     @media (max-width: 767px) {
-      margin-top: 0;
-      background-color: #dfdfe3;
-    }
-    span {
-      display: block;
-      background-color: $grey-index;
-      width: 100%;
-      height: 1.5em;
-      position: relative;
-    }
-    span:first-of-type {
-      margin-right: 1.5em;;
-    }
-    span:first-of-type:after {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: -1.5em;
-      content: "";
-      border-left: 1.5em solid transparent;
-      border-right: 1.5em solid transparent;
-      border-bottom: 1.5em solid $grey-index;
-    }
-    span:last-of-type {
-      margin-left: 1.5em;
-    }
-    span:last-of-type:before {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: -1.5em;
-      content: "";
-      border-left: 1.5em solid transparent;
-      border-right: 1.5em solid transparent;
-      border-bottom: 1.5em solid $grey-index;
+      margin-top: -2em;
     }
   }
 

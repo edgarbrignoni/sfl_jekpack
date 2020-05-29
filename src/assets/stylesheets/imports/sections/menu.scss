@@ -21,8 +21,6 @@ nav {
     z-index: 2;
     a {
       color: $font-white;
-      padding-top: 1em;
-      padding-bottom: 1em;
     }
     a:visited {
       color: $font-white;
@@ -30,22 +28,19 @@ nav {
     img {
       height: 3em;
     }
-    svg {
-      height: 3em;
-      width: 100%;
-    }
 
   ul {
     list-style-type: none;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 0.25em;
     display: grid;
     justify-content: center;
     grid: repeat(1, 20%) / auto-flow 20%;
   }
   p {
-    margin: 0px;
+    margin: 0.5em 0 0 0;
+    padding: 0;
   }
 }
 
